@@ -3,7 +3,10 @@ import styles from "../Styles/Navbar.module.css";
 import { Box, Flex, HStack } from "@chakra-ui/react";
 const Footers = () => {
   return (
-    <Box backgroundColor="black" width="100%" height="200px">
+    <Box 
+    
+    className={styles.footermainbox}
+  >
       <Flex>
         <Flex>
           <HStack spacing="40px" marginTop="50px" marginLeft="50px">
