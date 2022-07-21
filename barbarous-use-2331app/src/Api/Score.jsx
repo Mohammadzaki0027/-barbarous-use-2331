@@ -10,7 +10,7 @@ export const Score = ({ children }) => {
     let r = await axios.get(
       `https://api.cricapi.com/v1/currentMatches?apikey=982a0aef-0f5a-4779-86a0-cdb37248ece4&offset=0`
     );
-    console.log(r.data);
+
     setData(r.data);
   };
 
@@ -18,18 +18,22 @@ export const Score = ({ children }) => {
     let r = await axios.get(
       `https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=0017efb6c49a45938638aee47b0b1d1c`
     );
-    console.log(r.data);
+
     setNewsdata(r.data);
   };
 
   React.useEffect(() => {
-   // getnewsdata();
+    //getnewsdata();
   }, []);
 
   React.useEffect(() => {
-    // getscoredata()
+    getscoredata()
   }, []);
-  return <Apicontext.Provider value={[data]}>{children}</Apicontext.Provider>;
+  return (
+    <Apicontext.Provider value={[data, newsdata]}>
+      {children}
+    </Apicontext.Provider>
+  );
 };
 
 export default Score;

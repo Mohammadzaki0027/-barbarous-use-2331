@@ -3,6 +3,7 @@ import { Box } from "@chakra-ui/react";
 import Navbar from "./Component/Navbar";
 import Allroutes from "./Routes/Allroutes";
 import Footers from "./Component/Footers";
+import Newsdata from "./Component/Newsdata";
 // import Score from "./Api/Score";
 
 
