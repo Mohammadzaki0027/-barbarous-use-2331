@@ -12,7 +12,10 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 1
 .selectatg option{
     color:black;
 }
+.live{
+   color: #685A48;
 
+}
 .link img :hover{
     border: 0.2px solid  teal;
 box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
@@ -20,10 +23,55 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 1
 .h1hover:hover{
   color:   rgb(178, 18, 18);
 }
-
+.h1hover{
+    color: #685A48;
+}
 .footermainbox{
-    background-color: black;
+    background-color:#172132;
     width: 100%;
     height: 200px;
+
+}
+.outer{
+    width: 100%;
+
+}
+.inner{
+    width: 100%;
+height: 450px;
+    background-color: #A62B2D;
+
+}
+.corouselouter{
+    width:60%;
+    height: 300px;
+    margin: auto;
+     background-color: black;
+
+}
+.cor{
+    
+    background-color: #A62B2D;
+    width: 100%;
+    height: 300px;
+}
+.corolinner{
+    background-color:teal;
+    width: 60%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.arrow{
+    margin-top: 130px;
+}
+.coroseldiv{
+    background-color:black;
+    width: 60%;
+    height: 80%;
+    color: #A62B2D;
+    margin: auto;
 
 }
