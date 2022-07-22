@@ -1,8 +1,12 @@
 import React from 'react'
+import Slider from '../Styles/Slider'
 
 const Criclytics = () => {
   return (
-    <div>Criclyts</div>
+    <div style={{width:"80%",margin:"auto"}}>
+
+ <Slider></Slider> 
+    </div>
   )
 }
 

@@ -4,6 +4,7 @@ import Newsdata from '../Component/Newsdata'
 import { Button} from "@chakra-ui/react"
 import styles from "../Styles/Navbar.module.css"
 import { useNavigate } from 'react-router-dom'
+import Footers from '../Component/Footers'
 const News = () => {
 const[loading,setLoading]=React.useState(false)
 const handleclick=()=>{
@@ -28,7 +29,7 @@ setTimeout(() => {
       </div>
      {!loading? <div><Newsdata></Newsdata>
       </div>:<h1 style={{textAlign:"center"}}>...loading</h1>}
-      
+      <Footers></Footers>
     </div>
   )
 }
