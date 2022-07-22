@@ -4,10 +4,12 @@ import Navbar from "./Component/Navbar";
 import Allroutes from "./Routes/Allroutes";
 import Footers from "./Component/Footers";
 import Newsdata from "./Component/Newsdata";
-// import Score from "./Api/Score";
+
+import React from "react";
 
 
 function App() {
+
   return (
     <Box border="1px solid red" width="99%" margin="auto" height="100px">
       <Navbar></Navbar>

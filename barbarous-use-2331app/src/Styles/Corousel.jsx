@@ -17,7 +17,7 @@ function NoTransitionExample() {
   };
   console.log(col);
   const handleclickleft = () => {
-    if (col !== 4) {
+    if (col !== 3) {
       setCol((col) => col + 1);
     }
   };
@@ -29,7 +29,6 @@ function NoTransitionExample() {
           <FaChevronRight
             onClick={handleclickrigth}
             className={styles.icon}
-
           ></FaChevronRight>
         </div>
 

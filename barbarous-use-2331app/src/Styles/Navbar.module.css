@@ -85,3 +85,60 @@ border-radius: 15px;
     padding: 20px;
   
 }
+.Navbarbox{
+    background-color:#172132 ;
+     width:100%;
+ }
+@media only screen and (max-width: 600px) {
+    .coroseldiv{
+        font-size: small;
+        color: black;
+        padding: 10px;
+        display: inline-block;
+        width: 100%;
+    
+      
+    }
+.navflex{
+flex-direction: column;
+}
+    .corolinner{
+
+        width: 100%;
+        margin: auto;
+        display: inline-block;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .Navbarbox{
+        width: 100%;
+        
+    }
+    .newsbox{
+        width: 100%;
+        background-color: #685A48;
+        height: 400px;
+    }
+}
+
+.newsbox{
+    width: 80%;
+    background-color: white;
+    height: 400px;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 10px;
+   
+}
+.heading{
+    font-weight: bold;
+   height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(50, 50, 93, 0.25);
+}
+.newsitem{
+    display: flex;
+  
+}
