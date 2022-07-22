@@ -26,6 +26,7 @@ const Home = () => {
 {loading==false?<Logo></Logo>:""}
 
 <Newsdata></Newsdata>
+<Footers></Footers>
 
 </Box>
   )

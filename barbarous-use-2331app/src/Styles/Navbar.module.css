@@ -125,7 +125,7 @@ flex-direction: column;
 .newsbox{
     width: 80%;
     background-color: white;
-    height: 400px;
+   
     margin: auto;
     border: 1px solid black;
     margin-top: 10px;
@@ -139,6 +139,51 @@ flex-direction: column;
     border: 1px solid rgba(50, 50, 93, 0.25);
 }
 .newsitem{
+width: 100%;
+display: flex;
+
+justify-content: space-around;
+height: 100%;
+}
+.image{
+width: 50%;
+
+
+}
+.image img{
+    width: 90%;
+}
+.halfdiv{
+    width: 50%;
+
+
+    
+}
+.title{
+    font-weight: bold;
+}
+.description{
+    margin-top: 10px;
+    font-weight: lighter;
+}
+.date{
     display: flex;
-  
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.newspage{
+    width: 80%;
+    height: 100px;
+    background-color: #172132;
+    margin: auto;
+    margin-top: 20px;
+}
+.article{
+    width: 20%;
+    color: teal;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
 }

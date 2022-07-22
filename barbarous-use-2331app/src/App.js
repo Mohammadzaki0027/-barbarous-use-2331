@@ -11,7 +11,7 @@ import React from "react";
 function App() {
 
   return (
-    <Box border="1px solid red" width="99%" margin="auto" height="100px">
+    <Box width="99%" margin="auto" height="100px">
       <Navbar></Navbar>
       <Allroutes></Allroutes>
 

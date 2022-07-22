@@ -1,21 +1,21 @@
-import { Box, Flex, HStack } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import styles from "./Navbar.module.css";
 import { FaChevronRight } from "react-icons/fa";
-import { MdAddLocationAlt } from "react-icons/md";
+
 import { useContext } from "react";
 import { Apicontext } from "../Api/Score";
 import React from "react";
 function NoTransitionExample() {
   const [col, setCol] = React.useState(0);
 
-  const [data, newsdata] = useContext(Apicontext);
+  const [data] = useContext(Apicontext);
 
   const handleclickrigth = () => {
     if (col !== 0) {
       setCol((col) => col - 1);
     }
   };
-  console.log(col);
+
   const handleclickleft = () => {
     if (col !== 3) {
       setCol((col) => col + 1);
