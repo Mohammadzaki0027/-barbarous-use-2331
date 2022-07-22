@@ -56,7 +56,7 @@ height: 450px;
     height: 300px;
 }
 .corolinner{
-    background-color:teal;
+
     width: 60%;
     margin: auto;
     height: 100%;
@@ -66,12 +66,22 @@ height: 450px;
 }
 .arrow{
     margin-top: 130px;
+    color: white;
+ 
 }
 .coroseldiv{
-    background-color:black;
+    background-color:white;
     width: 60%;
-    height: 80%;
+    height: 90%;
     color: #A62B2D;
     margin: auto;
-
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+text-align: center;
+border-radius: 15px;
+}
+.coroseldiv{
+    font-size: larger;
+    color: black;
+    padding: 20px;
+  
 }

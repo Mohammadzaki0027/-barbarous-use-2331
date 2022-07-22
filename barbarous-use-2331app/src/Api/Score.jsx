@@ -12,6 +12,7 @@ export const Score = ({ children }) => {
     );
 
     setData(r.data);
+
   };
 
   const getnewsdata = async () => {
@@ -19,7 +20,7 @@ export const Score = ({ children }) => {
       `https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=0017efb6c49a45938638aee47b0b1d1c`
     );
 
-    setNewsdata(r.data);
+  //  setNewsdata(r.data);
   };
 
   React.useEffect(() => {
