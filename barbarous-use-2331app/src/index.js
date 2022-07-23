@@ -6,9 +6,11 @@ import {BrowserRouter} from "react-router-dom"
 import reportWebVitals from './reportWebVitals';
 import {ChakraProvider} from "@chakra-ui/react"
 import Score from './Api/Score';
+import { NewsDatacontext } from './Pages/Db';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <NewsDatacontext>
      <Score>
 <BrowserRouter>
     <ChakraProvider>
@@ -18,6 +20,7 @@ root.render(
    
     </BrowserRouter>
     </Score>
+    </NewsDatacontext>
   </React.StrictMode>
 );
 

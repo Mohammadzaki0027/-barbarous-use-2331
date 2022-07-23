@@ -15,9 +15,9 @@ const link = [
 ];
 const Navbar = () => {
   return (
-    <Box backgroundColor="#172132" width="100%">
-      <Flex justifyContent="space-around">
-        <HStack spacing="40px">
+    <Box className={styles.Navbarbox} >
+      <Flex justifyContent="space-around" className={styles.navflex} >
+        <HStack spacing="40px"  >
           <Box>
             <Link to="/">
               <img src="https://www.cricket.com/cricket.com.svg" alt="" />
