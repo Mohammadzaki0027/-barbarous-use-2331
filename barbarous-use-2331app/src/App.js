@@ -6,7 +6,7 @@ import Footers from "./Component/Footers";
 import Newsdata from "./Component/Newsdata";
 
 import React from "react";
-
+import Live from "./Component/Live";
 
 function App() {
 
