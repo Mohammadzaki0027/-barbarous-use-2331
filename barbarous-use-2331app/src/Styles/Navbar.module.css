@@ -12,7 +12,10 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 1
 .selectatg option{
     color:black;
 }
+.live{
+   color: #685A48;
 
+}
 .link img :hover{
     border: 0.2px solid  teal;
 box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
@@ -20,10 +23,65 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 1
 .h1hover:hover{
   color:   rgb(178, 18, 18);
 }
-
+.h1hover{
+    color: #685A48;
+}
 .footermainbox{
-    background-color: black;
+    background-color:#172132;
     width: 100%;
     height: 200px;
 
+}
+.outer{
+    width: 100%;
+
+}
+.inner{
+    width: 100%;
+height: 450px;
+    background-color: #A62B2D;
+
+}
+.corouselouter{
+    width:60%;
+    height: 300px;
+    margin: auto;
+     background-color: black;
+
+}
+.cor{
+    
+    background-color: #A62B2D;
+    width: 100%;
+    height: 300px;
+}
+.corolinner{
+
+    width: 60%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.arrow{
+    margin-top: 130px;
+    color: white;
+ 
+}
+.coroseldiv{
+    background-color:white;
+    width: 60%;
+    height: 90%;
+    color: #A62B2D;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+text-align: center;
+border-radius: 15px;
+}
+.coroseldiv{
+    font-size: larger;
+    color: black;
+    padding: 20px;
+  
 }
