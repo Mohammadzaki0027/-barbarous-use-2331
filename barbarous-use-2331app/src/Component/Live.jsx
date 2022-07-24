@@ -25,60 +25,7 @@ const Live = () => {
   return (
     <div style={{ width: "80%", margin: "auto" }}>
       <Box width="100%" margin="auto" marginTop="20px">
-        <Box width="100%" backgroundColor="#172132" height="50px">
-          <h1
-            style={{
-              color: "white",
-              fontFamily: "cursive",
-              paddingTop: "10px",
-              paddingLeft: "10px",
-              fontWeight: "bold",
-            }}
-          >
-            Completed
-          </h1>
-        </Box>
-        <div className={Styles.matchdiv}>
-          {data.data?.map((e) => (
-            <div className={Styles.griddiv}>
-              <div className={Styles.griditem}>
-                <h1>{e.name}</h1>
-              </div>
-              <div className={Styles.griditem}>
-                <h2>{e.score[0].inning}</h2>
-              </div>
-
-              <div className={Styles.griditem}>
-                <h2>
-                  {e.score[0].r +
-                    "/" +
-                    e.score[0].w +
-                    " " +
-                    e.score[0].o +
-                    "  Overs"}{" "}
-                </h2>
-              </div>
-              <div className={Styles.griditem}>
-                <h2>{e.score[1].inning}</h2>
-              </div>
-
-              <div className={Styles.griditem}>
-                <h2>
-                  {e.score[1].r +
-                    "/" +
-                    e.score[1].w +
-                    " " +
-                    e.score[1].o +
-                    "  Overs"}{" "}
-                </h2>
-              </div>
-
-              <div className={Styles.griditem}>
-                <h1>{e.status}</h1>
-              </div>
-            </div>
-          ))}
-        </div>
+       
         <Box
           width="100%"
           backgroundColor="#172132"
